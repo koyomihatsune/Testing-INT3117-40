@@ -22,7 +22,6 @@ def convert_number(n, b):
     return "".join(reversed(sb))
 
 if __name__ == "__main__":
-    print(convert_number(-2, 8))
-    print(convert_number(0, 8))
-    print(convert_number(50, 2))
-    print(convert_number(9023, 16))
+    print(convert_number(3, 8))
+    print(convert_number(22, 12))
+    print(convert_number(11, 12))
